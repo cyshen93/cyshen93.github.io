@@ -91,6 +91,7 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
 
+<!--  This paragraph will not be displayed.
 
     <div class="container mt-5"> 
     <div class="post"> 
@@ -108,7 +109,66 @@
         <p>                                                                 </p>
     </header> 
 
-    <section>
+   -->
+    
+    body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+.overview-container {
+    display: flex;
+    align-items: center; /* Center the items vertically */
+    justify-content: space-around; /* Even spacing around the items */
+    padding: 20px;
+}
+
+.overview-text {
+    flex: 1; /* Allows the text block to grow and take up half the space */
+    padding: 20px;
+}
+
+.overview-image {
+    flex: 1; /* Allows the image block to grow and take up half the space */
+}
+
+img {
+    max-width: 100%; /* Makes the image responsive */
+    height: auto; /* Keeps the aspect ratio */
+}
+
+.research-topic {
+    margin: 20px;
+    padding: 20px;
+    border-top: 1px solid #ccc; /* Adds a subtle line above each section */
+}
+
+h1, h2 {
+    color: #333;
+}
+
+
+    <div class = "overview-container">
+        <div class="overview-text">
+            <p> We study the oxidation of volatile organic compounds (VOC) that lead to formation of 
+            secondary organic aerosol (SOA). The VOCs of interest include biogenic VOCs 
+            (e.g., monoterpenes) and anthropogenic hydrocarbons (e.g., aromatic VOCs). We perform 
+            controlled laboratory experiments of VOC oxidation and compositional measurements of the 
+            gas- and particle-phase products using advanced analytical instruments. We combine 
+            measurements and kinetic simulations to develop mechanistic understanding of VOC oxidation 
+            and SOA formation.</p>
+        </div>
+        <div class="overview-image">
+             <img src = "/assets/img/overview.jpg">
+        </div>
+    </div>
+    
+
+    
+    
+    <section class="research-topic">
     <h2> 1. Secondary Organic Aerosol (SOA) Formation</h2>
         <img src = "/assets/img/SOA_formation.jpg" alt = "SOA formation processes" style = "width: 50%; height: auto;">
         <p> We study the oxidation of volatile organic compounds (VOC) that lead to formation of 
@@ -120,7 +180,7 @@
             and SOA formation.</p>
     </section>
 
-     <section>
+     <section class="research-topic">
     <h2> 2. Oxidation Mechanism Development</h2>
         <img src = "/assets/img/chemical_mechanism.jpg" alt = "Isoprene Oxidation Processes" style = "width: 50%; height: auto;">
         <p> We propose condensed oxidation mechanism for volatile organic compounds (VOC) like isoprene and alpha-Pinene 
@@ -131,7 +191,7 @@
         </p>
     </section>
     
-    <section>
+    <section class="research-topic">
     <h2> 3. Aerosol-cloud interaction and aerosol hygroscopicy </h2>
         <img src = "/assets/img/hygroscopicity.jpg" alt = "Hygroscopicity Measurements" style = "width: 50%; height: auto;">
         <p>                       
@@ -139,7 +199,7 @@
     </section>        
 
 
-     <section>
+     <section class="research-topic">
     <h2> 4. Air quality and field measurements </h2>
         <img src = "/assets/img/haze.jpg" style = "width: 50%; height: auto;">
          <p>                                                         </p>
