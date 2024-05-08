@@ -36,6 +36,35 @@
                 font-size: 1.25rem; /* Increase icon size */
             }
         }
+
+
+        .overview-container {
+        display: flex;
+        align-items: center; /* Center the items vertically */
+        justify-content: space-around; /* Even spacing around the items */
+        padding: 20px;
+        }
+
+        .overview-text {
+        flex: 1; /* Allows the text block to grow and take up half the space */
+        padding: 20px;
+        }
+
+        .overview-image {
+        flex: 1; /* Allows the image block to grow and take up half the space */
+        }
+
+        img {
+        max-width: 100%; /* Makes the image responsive */
+        height: auto; /* Keeps the aspect ratio */
+        }
+
+        .research-topic {
+        margin: 20px;
+        padding: 20px;
+        border-top: 1px solid #ccc; /* Adds a subtle line above each section */
+        }
+
     </style>
 
     <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design. "/>
@@ -110,45 +139,6 @@
     </header> 
 
    -->
-    
-    body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-}
-
-.overview-container {
-    display: flex;
-    align-items: center; /* Center the items vertically */
-    justify-content: space-around; /* Even spacing around the items */
-    padding: 20px;
-}
-
-.overview-text {
-    flex: 1; /* Allows the text block to grow and take up half the space */
-    padding: 20px;
-}
-
-.overview-image {
-    flex: 1; /* Allows the image block to grow and take up half the space */
-}
-
-img {
-    max-width: 100%; /* Makes the image responsive */
-    height: auto; /* Keeps the aspect ratio */
-}
-
-.research-topic {
-    margin: 20px;
-    padding: 20px;
-    border-top: 1px solid #ccc; /* Adds a subtle line above each section */
-}
-
-h1, h2 {
-    color: #333;
-}
-
 
     <div class = "overview-container">
         <div class="overview-text">
