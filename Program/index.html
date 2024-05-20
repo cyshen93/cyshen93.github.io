@@ -160,19 +160,12 @@ Batch Mode: Prepare a text file containing a series of SMILES. Enter the tempera
              <img src = "/assets/img/layout.png" style = "width: 50%; height: auto;">
             </div>   
          </div>
-        <p> I study the oxidation of volatile organic compounds (VOC) that lead to formation of 
-            secondary organic aerosol (SOA). The VOCs of interest include biogenic VOCs 
-            (e.g., monoterpenes) and anthropogenic hydrocarbons (e.g., aromatic VOCs). We perform 
-            controlled laboratory experiments of VOC oxidation and compositional measurements of the 
-            gas- and particle-phase products using advanced analytical instruments. We combine 
-            measurements and kinetic simulations to develop mechanistic understanding of VOC oxidation 
-            and SOA formation.</p>
-        <p> I propose condensed oxidation mechanism for volatile organic compounds (VOC) like isoprene and alpha-Pinene 
-            based on existing explicit mechanism and recent published research findings. 
-            I perform kinetic modeling of VOC oxidation and compared the modeling results to controlled laboratory experiments 
-            to refine kinetic parameters that are important for the fate and pathway of key species. The developed 
-            condensed mechanism is much smaller and can be widely applied in regional models.
-        </p>
+        <p> I developed the SIMPOL GUI-based application running on PYTHON to estimate the saturation vapor pressure of a given molecule. Users input the SMILES notation of a molecule, and the program automatically detects functional groups critical for estimating vapor pressure. It also calculates and displays other relevant molecular parameters, such as the number of carbon (C), hydrogen (H), oxygen (O) atoms, and molecular weight (MW).
+</p>
+    <p> This program includes two modes: the single mode and batch mode. Single Mode: Input the SMILES and temperature in the upper panel, then click "Compute Single Mode". The vapor pressure, C* (saturation concentration), and molecule-related information will be updated in the lower panel. The molecular structure will be displayed on the upper right. If the input SMILES is invalid, a message box will notify you.
+Batch Mode: Prepare a text file containing a series of SMILES. Enter the temperature and click "Or Load Your SMILES File" to select your SMILES text file. After clicking "Compute Batch Mode", the program processes all the SMILES in your input file. A message box will appear once processing is complete. The output file is saved in the current folder, named in the format smileYYYYMMDDHHMM.txt, where the numbers represent the save time.
+</p>
+    <p> The detailed manual and code can be accessed here: https://github.com/cyshen93/-VP_prediction/tree/main </p>
     </section>
 
     
